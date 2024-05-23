@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'SN Pro Black';
+    src: url('SNPro/SNPro-Black.woff2');
+}
+
+@font-face {
+    font-family: 'SN Pro Bold';
+    src: url('SNPro/SNPro-Bold.woff2');
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.lineIndex {
+    color: white;
+    font-family: 'SN Pro Bold';
+    font-size: 1.25rem;
+    opacity: 50%;
+}
+
+.code {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    width: 100%;
+    color: white;
+    font-family: 'SN Pro Bold';
+    font-size: 1.25rem;
+}
+
+.code:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.code:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.line {
+    display: flex;
+    gap: 10px;
+}
