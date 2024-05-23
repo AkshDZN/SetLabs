@@ -30,12 +30,15 @@ body {
 }
 
 .code:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
 }
 
 .code:focus {
     background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
 }
+
 
 input:focus,
 select:focus,
